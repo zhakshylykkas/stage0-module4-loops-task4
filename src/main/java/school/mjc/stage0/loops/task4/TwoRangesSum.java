@@ -5,8 +5,8 @@ public class TwoRangesSum {
         printSumOfTwoRanges(5, 10);
     }
     public static void printSumOfTwoRanges(int numberToSkip, int lastInRow) {
-        if (numberToSkip > lastInRow) System.out.print("number to skip is bugger then the last");
-        else if (lastInRow < 0) System.out.print("last number in row is negative");
+        if (numberToSkip > lastInRow) System.out.println("number to skip is bigger then the last");
+        else if (lastInRow < 0) System.out.println("last number in row is negative");
         else {
             int sum = 0;
             for (int i = 0; i <= lastInRow; i++) {
